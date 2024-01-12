@@ -210,7 +210,7 @@ nav {
 
 /* =================== Mise en form de palrtie footer ========================= */
 
-.footer{
+.footer{                               
     display: flex;
     justify-content: center;
     width: 100%; 
