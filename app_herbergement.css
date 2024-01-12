@@ -1,0 +1,11 @@
+.contenu{
+    height: 200vh;
+    display: flex;
+   align-items: center;
+  
+   text-align: center;
+}
+
+.input-group{
+text-align: center;
+}
