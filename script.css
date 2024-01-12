@@ -1,0 +1,32 @@
+/* body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2,h3 {
+    color: #333;
+    text-align: center;
+}
+
+.service-card{
+    border: 1px solid #ddd;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+}
+
+#Services {
+
+    display: flex;
+    justify-content: space-around;
+
+} */
+
+img {
+    width: 25%;
+}
