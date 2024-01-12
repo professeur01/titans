@@ -1,11 +1,123 @@
 .contenu{
-    height: 200vh;
+    height: 150vh;
     display: flex;
    align-items: center;
-  
    text-align: center;
+   justify-content: center;
 }
 
-.input-group{
-text-align: center;
+.group-input{
+    position: relative;
+ 
+    width: 100%;
+}
+.first-divcf{
+    display: flex;
+}
+.group-input input{
+    background-image: url(image/search.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 18rem;
+    padding: 0.4rem;
+    width: 20rem;
+    border-radius: 10px;
+    border: 1px solid ;
+
+
+}
+
+h1{
+    color: white;
+}
+.card{
+   margin: 1rem;
+   background-color: #fff;
+   padding-top: 1rem;
+   padding: 1.2rem;
+   height: 55vh;
+   border-radius: 15px;
+   box-shadow: 1px 4px 6px 1px;
+}
+img{
+    width: 20%;
+}
+.up{
+    background-color: #5C00A3;
+    height: 5rem;
+    border-bottom-left-radius: 5px;
+
+}
+.chiffre span{
+    position: absolute;
+    top: 13rem;
+}
+
+.up span{
+   
+    color: white;
+}
+
+.lorem{
+    align-items: center;  
+}
+.lorem span{
+    display: block;
+    padding: .2rem;
+}
+.boutton{
+    text-align: center;
+}
+ .boutton button{
+width: 10rem;
+margin-top: 2rem;
+padding: .5rem;  
+background-color: white;
+border: 1px solid violet;
+border-radius: 2rem; 
+cursor: pointer;
+}
+.btn:hover{
+    background-color: violet;
+}
+.side-bottom{
+    justify-content: center;
+}
+.lorem span svg{
+   color: #5C00A3;
+}
+.side-bottom .card{
+margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px ;
+    position: relative;
+}
+.side-bottom .card{
+    width: 17rem;
+    padding: 1rem;
+ 
+}
+.side-bottom .card h4{
+margin-top: 3rem;
+}
+.side-bottom .card div div{
+ 
+    position: absolute;
+    left: 8rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #5C00A3;
+    opacity: 0.4;
+    
+}
+.side-bottom .card div img{
+    font-size: large;
+z-index: 3;
+position: absolute;
+left: 8.7rem;
+top: 0.8rem;
+}
+de-bottom .card img{
+    width: 10%;
 }
